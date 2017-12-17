@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Accepted Hacks - 5th Named Data Networking (NDN) Hackathon</title>
+    <meta name="description" content="December 16-17th, 2017, University of California, Los Angeles">
+    <meta name="author" content="5th NDN Hackathon Organizing Committee">
+    <link rel="canonical" href="http://5th-ndn-hackathon.named-data.net/hacks">
+
+    <link type="text/css" rel="stylesheet" href="/assets/site-3590e1e82ccaef8e22ae6c3942854a978d0a954ce8e82243a00230c1c84b1dce.css">
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="/assets/ico/favicon-38a0d815005ff0b3d71bae96e5736aaf474efe05b3288d12f6465c38b43aa315.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/ico/apple-touch-icon-144-precomposed-97e5eefed33136b6b7e63bdbdf4957b88045bd96bb9b2cc5a0a8525729ca221f.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/ico/apple-touch-icon-114-precomposed-8603082234efbd8fca0f58505f699a5854a13739f12b87b69143b06a4cccc0c7.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/ico/apple-touch-icon-72-precomposed-a22882427ca6e03081271325bf1294e8cd2ee4c447f635000e4f4a0f694bfe55.png">
+    <link rel="apple-touch-icon-precomposed" href="/assets/ico/apple-touch-icon-57-precomposed-933602014f87c50876665303015b7fed8f9dbe32ab7b7b62ebe888e5497dfd43.png">
+
+    
+  </head>
+  <body>
+    <header id="header">
+      <hgroup>
+  <h1 id="site-title">
+    <a class="full" href="/">5th Named Data Networking (NDN) Hackathon</a>
+  </h1>
+
+  <h2 id="site-description">December 16-17th, 2017, University of California, Los Angeles</h2>
+
+</hgroup>
+
+    </header>
+
+    <nav id="navbar">
+      <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+
+
+  
+  
+          <li class="">
+            <a href="/">Home</a>
+          </li>
+  
+
+  
+  
+          <li class="">
+            <a href="/committees.html">Committees</a>
+          </li>
+  
+
+  
+  
+          <li class="">
+            <a href="/terms.html">Terms</a>
+          </li>
+  
+
+  
+  
+          <li class="">
+            <a href="/program.html">Program</a>
+          </li>
+  
+
+  
+  
+          <li class="">
+            <a href="/hacks.html"><b>HACKS</b></a>
+          </li>
+  
+
+  
+  
+          <li class="">
+            <a href="/judging.html">Judging</a>
+          </li>
+  
+
+        </li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search" action="http://google.com/search" method="get">
+        <div class="form-group">
+
+          <input type="hidden" name="q" value="site:http://5th-ndn-hackathon.named-data.net">
+
+          <input type="text" name="q" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+
+        <aside id="sidebar" class="col-xs-8 col-sm-5 col-md-4 col-lg-3 pull-right">
+          <section id="sidebar-deadlines" class="well">
+ <h3><i class="fa fa-calendar"></i>&nbsp;Important Dates</h3>
+<ul id="deadlines" class="nav nav-list">
+
+  <li><p>Submission deadline:
+  
+  <br/><b style="margin-left: 20px"><del>December 8, 2017</del></b>
+  
+  </p></li>
+
+  <li><p>Acceptance notification:
+  
+  <br/><b style="margin-left: 20px"><del>December 11, 2017</del></b>
+  
+  </p></li>
+
+</ul>
+</section>
+
+        </aside><!--/span-->
+
+        <div id="main" class="col-xs-12 col-sm-7 col-md-8 col-lg-9">
+          <article>
+ <header>
+   <h1>Accepted Hacks</h1>
+ </header>
+
+<section>
+  
+<ul id="markdown-toc">
+  <li><a href="#1-ndnsim-analysisillustration-tools-for-collected-metrics" id="markdown-toc-1-ndnsim-analysisillustration-tools-for-collected-metrics">1. <del>ndnSIM analysis/illustration tools for collected metrics</del></a></li>
+  <li><a href="#2-demonstration-of-latest-nfd-features-in-ndnsim" id="markdown-toc-2-demonstration-of-latest-nfd-features-in-ndnsim">2. <del>Demonstration of latest NFD features in ndnSIM</del></a></li>
+  <li><a href="#3-firefly-a-globally-scalable-message-bus-with-ndn-at-the-edge" id="markdown-toc-3-firefly-a-globally-scalable-message-bus-with-ndn-at-the-edge">3. Firefly: A globally scalable message bus with NDN at the edge</a>    <ul>
+      <li><a href="#slides" id="markdown-toc-slides">Slides</a></li>
+    </ul>
+  </li>
+  <li><a href="#4-ndn-stack-for-esp8266-microcontroller" id="markdown-toc-4-ndn-stack-for-esp8266-microcontroller">4. <del>NDN Stack for ESP8266 Microcontroller</del></a></li>
+  <li><a href="#5-ndn-with-docker" id="markdown-toc-5-ndn-with-docker">5. <del>NDN with Docker</del></a></li>
+  <li><a href="#6-implementing-broadcast-based-self-learning-forwarding-strategy-in-nfd" id="markdown-toc-6-implementing-broadcast-based-self-learning-forwarding-strategy-in-nfd">6. Implementing Broadcast-based Self-learning Forwarding Strategy in NFD</a>    <ul>
+      <li><a href="#slides-1" id="markdown-toc-slides-1">Slides</a></li>
+    </ul>
+  </li>
+  <li><a href="#7-demonstrating-the-benefits-of-in-network-congestion-detection" id="markdown-toc-7-demonstrating-the-benefits-of-in-network-congestion-detection">7. Demonstrating the Benefits of In-Network Congestion Detection</a>    <ul>
+      <li><a href="#slides-2" id="markdown-toc-slides-2">Slides</a></li>
+    </ul>
+  </li>
+  <li><a href="#8-nfd-measurements-table-manager" id="markdown-toc-8-nfd-measurements-table-manager">8. NFD Measurements Table Manager</a>    <ul>
+      <li><a href="#slides-3" id="markdown-toc-slides-3">Slides</a></li>
+    </ul>
+  </li>
+  <li><a href="#9-ndn-snapchat" id="markdown-toc-9-ndn-snapchat">9. NDN Snapchat</a>    <ul>
+      <li><a href="#slides-4" id="markdown-toc-slides-4">Slides</a></li>
+    </ul>
+  </li>
+  <li><a href="#10-nfd-content-store-management" id="markdown-toc-10-nfd-content-store-management">10. NFD Content Store Management</a>    <ul>
+      <li><a href="#slides-5" id="markdown-toc-slides-5">Slides</a></li>
+    </ul>
+  </li>
+  <li><a href="#11-nfd-management-thread" id="markdown-toc-11-nfd-management-thread">11. <del>NFD Management Thread</del></a></li>
+</ul>
+
+<p><a href="/assets/project-pitches-7e02ada3d1ac6cb93a257c81df893ba10172abe0f9691e7fba26bc7f57905380.pdf">Project Pitches</a></p>
+
+<h2 id="1-ndnsim-analysisillustration-tools-for-collected-metrics">1. <del>ndnSIM analysis/illustration tools for collected metrics</del></h2>
+
+<p>Lead: Spyros Mastorakis</p>
+
+<p>ndnSIM currently relies mostly on tracers for the collection of simulation/network metrics. However, the tracers typically generate very large output files, which are very hard for users to read. Therefore, these files require post-processing/offline analysis (e.g., using some R or python script). As of now, we provide a couple of sample R scripts on the ndnSIM website (http://ndnsim.net/2.4/metric.html), however, more scripts are required to allow for further metric analysis and illustration flexibility.</p>
+
+<p><strong>Tasks to accomplish</strong></p>
+
+<ul>
+  <li>Create a number of scripts (e.g., in R or python, etc.) that would enable further flexibility during the analysis of tracers’ output files. The scripts should also automate the illustration of the analyzed metrics (e.g., by using ggplot2, numpy, etc.)</li>
+  <li>Submit the scripts to Gerrit for review (the goal is to get them merged to the master branch ASAP).</li>
+  <li>Demonstration of the illustration to the hackathon committee.</li>
+</ul>
+
+<p><strong>Knowledge Requirements</strong></p>
+
+<p>ndnSIM, python or R, C++.</p>
+
+<p><strong>Expected Outcome</strong></p>
+
+<p>A set of scripts to automate the analysis and illustration of metrics collected using the ndnSIM tracers.</p>
+
+<hr />
+
+<h2 id="2-demonstration-of-latest-nfd-features-in-ndnsim">2. <del>Demonstration of latest NFD features in ndnSIM</del></h2>
+
+<p>Lead: Spyros Mastorakis</p>
+
+<p><strong>Problem Statement</strong></p>
+
+<p>Since ndnSIM 2.0, ndnSIM is integrated with the real NDN prototypes (NFD and ndn-cxx). Lately, new features have been added to NFD (e.g., packet fragmentation and reassembly, congestion control, ad-hoc faces). The goal of this project is to create ndnSIM simulation scenarios and ndnSIM-specific (NS-3-based) or real world applications (if needed) to demonstrate those features. This project would be very useful for the ndnSIM community, since there will be ready-to-use pieces of code for the users to experiment with the new NFD features.</p>
+
+<p><strong>Tasks to accomplish</strong></p>
+
+<ul>
+  <li>Create a set of ndnSIS simulation scenarios, applications and make all the changes needed to ndnSIM, so that newly added NFD features can be used (e.g., packet fragmentation and reassembly, congestion control, ad-hoc faces and any other the developers might consider important and useful)</li>
+  <li>Create some related documentation, so that we can add the created code on the ndnSIM website</li>
+  <li>Submit the code to Gerrit for review (the goal is to get them merged to the master branch ASAP)</li>
+</ul>
+
+<p><strong>Knowledge Requirements</strong></p>
+
+<p>ndnSIM, NFD, ndn-cxx, C++.</p>
+
+<p><strong>Expected Outcome</strong></p>
+
+<p>A set of simulation scenarios, applications and any other changes needed.</p>
+
+<hr />
+
+<h2 id="3-firefly-a-globally-scalable-message-bus-with-ndn-at-the-edge">3. Firefly: A globally scalable message bus with NDN at the edge</h2>
+
+<h3 id="slides"><a href="/assets/3-Firefly-8a301f35206920570df9558bbf44d4163dd8244e06c482a0285db7e4106b492d.pdf">Slides</a></h3>
+
+<p>Project Leads: Jeff Burke, Jeff Thompson</p>
+
+<p><strong>Summary  / Contribution</strong></p>
+
+<p>This project aims to design and demonstrate a scalable, fault-tolerant message bus for mobile applications that uses native Named Data Networking (NDN) communication for robust and disruption tolerant communication at the edge, while employing a cloud-hosted, best-in-class “real-time database”, Google Firebase, as its core transport.  The project will be implemented in a demonstration application with a Unity client on an Android mobile phone and a web application.</p>
+
+<p><strong>Problem statement</strong></p>
+
+<p>Sync, repo, prefix registration and publisher mobility support are still research topics and implementations are in early stages.   At the same time, apps deploying over existing, TCP/IP based distributed messaging and database platforms still face limitations due to IP, such as difficulty leveraging multiple interfaces and broadcast channels in local networks, and providing  a data-centric security model.</p>
+
+<p><strong>Approach</strong></p>
+
+<p>This project explores what is possible if higher-level functionality envisioned for NDN is made available (for some slice of use cases) globally and robustly, by using Firebase as a transport for NDN data and if NDN is used to provide robust and flexible communication between nodes at the edge.</p>
+
+<p>We will design and implement a bridge between NDN and Google Firebase’s Real-time Database service (and other components if necessary), an arbitrary number of instances of which can be run on a local NDN network to provide persistent storage and sync with other NDN edge networks. Client libraries will be provided in the NDN-CCL that follow the format of or directly duplicate APIs for prefix registration, repo storage, and sync.</p>
+
+<p>NDN signatures and verification will be supported by storing the wire format as well as decoded messages (using Firebase as a transport layer).   Named data  objects will be immutable and mapped to into Firebase’s hierarchical namespace.</p>
+
+<p><strong>Planned Tasks To Accomplish</strong></p>
+
+<ul>
+  <li>Create necessary accounts, sample databases, API keys, etc. for using Firebase (before the hackathon)</li>
+  <li>Design mapping between Firebase and NDN namespaces and data formats (sketched before hackathon)</li>
+  <li>Develop bridge process for linking a local NDN network with a Firebase store</li>
+  <li>Implement client code on ndn-dot-net and ndn-js</li>
+  <li>Develop sample application, probably inspired by IoT and AR experiments already underway by NDN team</li>
+</ul>
+
+<p><strong>Knowledge Requirements</strong></p>
+
+<ul>
+  <li>Basic understanding of NDN including interest/data exchange, synchronization.</li>
+  <li>Familiarity with at least one of the following languages, including how to use external libraries and write event-driven code: C#, NDN-JS, and Python.</li>
+  <li>Helpful: Understanding of NoSQL databases</li>
+</ul>
+
+<p><strong>Expected Outcome</strong></p>
+
+<ul>
+  <li>Demonstration application</li>
+  <li>Prototype library using firebase to provide sync (and other derived features) to NDN apps</li>
+  <li>Insight into potential opportunities to extend “pure NDN” sync, storage, and routing to meet application needs</li>
+</ul>
+
+<hr />
+
+<h2 id="4-ndn-stack-for-esp8266-microcontroller">4. <del>NDN Stack for ESP8266 Microcontroller</del></h2>
+
+<p>Project Lead: Ashlesh Gawande</p>
+
+<p><strong>Motivation</strong></p>
+
+<p>The ESP8266 is a low-cost WiFi chip with full TCP/IP stack and microcontroller capability. It supports 802.11bgn WiFi at 2.4GHz, features a 80MHz 32-bit CPU with 96KB of data RAM, and has GPIO pins, analog input, and other ports. At an unbeatable price point of USD $3, it is one of the most popular microcontroller chips among western makers.</p>
+
+<p>The ESP8266 can be programmed with the Arduino IDE. We have ported ndn-cpp-lite to the ESP8266, and packaged it as an Arduino library, available at https://github.com/yoursunny/esp8266ndn.</p>
+
+<p>This project is to add more features into the esp8266ndn library, and develop some applications to demonstrate the power of combining ESP8266 and NDN.</p>
+
+<p><strong>Contribution to NDN</strong></p>
+
+<p>Allow NDN to operate on the ESP8266 microcontroller, a popular chip among western makers.</p>
+
+<p><strong>Tasks</strong></p>
+
+<ul>
+  <li>Prefix registration with HMAC: Implement prefix registration on ESP8266 with HMAC signatures. Either develop an ndn-cxx Validator to validate HMAC signatures and integrate this Validator into NFD-RIB, or develop a proxy application (with any library) to accept such commands and send an RSA-signed prefix registration command to NFD-RIB; this program runs on a regular computer.</li>
+  <li>ECDSA signing and verification via micro-ecc: Determine the correct parameters to initialize micro-ecc library, so that the signatures generated by ndn-cxx can be verified with micro-ecc, and vice versa; this step can be done on a regular computer. Port micro-ecc onto the ESP8266.</li>
+  <li>Prefix registration with ECDSA: Implement prefix registration on ESP8266 with ECDSA signatures. This shall  be compatible with regular NFD with ECDSA verification enabled.</li>
+  <li>Nack: Add features to send and receive network Nacks.</li>
+  <li>Demo applications: See “expected outcome” section.</li>
+</ul>
+
+<p><strong>Required Knowledge for Participants</strong></p>
+
+<ul>
+  <li>General knowledge about signed Interests</li>
+  <li>C++11, ndn-cxx or ndn-cpp-lite API</li>
+  <li>a computer capable of running the Arduino IDE: most Windows/Linux/macOS laptops with a full-size USB</li>
+  <li>port will work fine</li>
+  <li>a computer capable of running NFD: this can be a virtual machine</li>
+</ul>
+
+<p>The project leader will have at least 3 ESP8266 units (Wemos D1 mini boards) for this project, and can explain most of the existing code of esp8266ndn library. Maximum team size is 3.</p>
+
+<p><strong>Expected Outcome</strong></p>
+
+<ul>
+  <li>Prefix registration and Nack demo: ping server Use an ESP8266 unit with one LED, a computer with patched Validator or proxy application. The ESP8266 registers its prefix onto the NFD using HMAC. The computer  can ndnping the prefix of ESP8266. The ESP8266 blinks its LED each time a ping request is processed. If     the computer sends an Interest not served by the ndnping server, the ESP8266 should respond with a Nack.</li>
+  <li>ECDSA demo: light Use an ESP8266 unit with two LEDs, and a computer with regular NFD. The ESP8266 registers its prefix onto the NFD using ECDSA. A simple program on the computer sends a signed Interest  with ECDSA to the ESP8266. The ESP8266 verifies the signature, and then blinks blue LED if signature is valid, or blinks red LED if signature is invalid.</li>
+</ul>
+
+<hr />
+
+<h2 id="5-ndn-with-docker">5. <del>NDN with Docker</del></h2>
+
+<p>Project Lead: Haitao Zhang</p>
+
+<p><strong>Motivation</strong></p>
+
+<p>One big roadblock for people to try NDN are the troublesome operations of downloading, compiling, installation, and configuration.
+Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud. Executable applications and well-configured environment are directly packed into a container. Given most OS supports docker and docker is lightweight in size, docker is a very good carrier of NDN stack.
+By packing the NDN stack into the docker container, all OSs that support docker can talk in NDN by installing our conatiner, and users don’t bother to compile/install/config this and that.</p>
+
+<p><strong>Contribution to NDN</strong></p>
+
+<ul>
+  <li>Make most operating systems (including Windows) able to send/receive NDN packets</li>
+  <li>Users can simply install the container and don’t bother to compile/install/config</li>
+</ul>
+
+<p>Those will definitely help to enlarge the NDN community and encourage more people to try NDN.</p>
+
+<p><strong>Tasks</strong></p>
+
+<ul>
+  <li>Preparation: Learn how to use Docker and make Docker container.</li>
+  <li>Main part: Pack well-configured ndn-cxx, NFD, ndncert, repo-ng, and their dependencies into the container.</li>
+  <li>Test: Have some operating systems (Windows, Ubuntu, MacOS, etc) to install the container and communicate using the NDN packets.</li>
+</ul>
+
+<p><strong>Required Knowledge for Participants</strong></p>
+
+<ul>
+  <li>Have some basic knowledge of Docker.</li>
+  <li>Once in his/her life time has successfully finished NDN environment setup.</li>
+</ul>
+
+<p><strong>Expected Outcome</strong></p>
+
+<p>If one’s OS supports docker, it can talk in NDN in a very simple way.</p>
+
+<hr />
+
+<h2 id="6-implementing-broadcast-based-self-learning-forwarding-strategy-in-nfd">6. Implementing Broadcast-based Self-learning Forwarding Strategy in NFD</h2>
+
+<h3 id="slides-1"><a href="/assets/6-self-learning-1abc9a909fd5f2f2ca65f4470227263a6d035246423576068e77e45f855cfc27.pdf">Slides</a></h3>
+
+<p>Project Lead: Teng Liang</p>
+
+<p><strong>Motivation</strong></p>
+
+<p>In local area networks and mobile ad-hoc networks, broadcast-based self-learning is a common mechanism to find packet delivery paths. Self-learning broadcasts the first packet, observes where the returning packet comes from, then creates the corresponding forwarding table entry so that future packets will only need unicast. The main benefits of this mechanism are its simplicity, adaptability, and support of mobility. Junxiao designed a broadcast-based self-learning mechanism for NDN. The NFD development team has a lot of discussion on its implementation design. In addition, its implementation is in progress.</p>
+
+<p><strong>Contribution to NDN</strong></p>
+
+<p>This project implements the first broadcast-based self-learning forwarding strategy in NFD, which can be customized in many scenarios, such as in LAN and wireless ad hoc networks. NDN developers can use this forwarding strategy for its simplicity, adaptability, and support of mobility in different scenarios. Researchers can use this forwarding strategy as a baseline for their research.</p>
+
+<p><strong>Tasks</strong></p>
+
+<p>We have broken the implementation design into several tasks defined on Redmine, including discovery Interest indication (#4355), prefix announcement for self-learning (#4280), measurement table for self-learning, and self-learning forwarding strategy (#4279).</p>
+
+<p>In addition, this task is blocked by the task of giving strategy authority over Data packets (#4290).</p>
+
+<p><strong>Required Knowledge for Participants</strong></p>
+
+<p>C++11</p>
+
+<p><strong>Expected Outcome</strong></p>
+
+<p>The ideal outcome is the full implementation of broadcast-based self-learning forwarding strategy in NFD with a test scenario. As the implementation design is already broken into several tasks after rounds of discussions. The outcome can be quantified by the accomplishment of tasks.</p>
+
+<hr />
+
+<h2 id="7-demonstrating-the-benefits-of-in-network-congestion-detection">7. Demonstrating the Benefits of In-Network Congestion Detection</h2>
+
+<h3 id="slides-2"><a href="/assets/7-cc-8fa44655a86ea568340e7a6c0b742cedc9f15c49f6bb3805664ccc6429e93a98.pdf">Slides</a></h3>
+
+<p>Project Leads: Klaus Schneider, Eric Newberry, Chavoosh Ghasemi</p>
+
+<p><strong>Motivation</strong></p>
+
+<p>Congestion control is an important part of almost every application. Examples include big data (like Hadoop), content distribution networks, data center networks, wireless networks, and audio/video streaming. Without a comprehensive congestion control framework, application developers have to either implement their own ad-hoc solutions or suffer from poor performance.</p>
+
+<p><strong>Contribution to NDN</strong></p>
+
+<p>Over the last weeks and months we have made good progress in implementing key parts of a congestion control framework for NDN:</p>
+<ul>
+  <li><a href="https://redmine.named-data.net/issues/1624">Issue #1624</a>, <a href="https://redmine.named-data.net/issues/3797">Issue #3797</a></li>
+  <li><a href="https://redmine.named-data.net/issues/3823">Issue #3823</a>, <a href="https://redmine.named-data.net/issues/4289">Issue #4289</a></li>
+</ul>
+
+<p>In this hackathon project, we want to put the pieces together and demonstrate that our scheme of in-network congestion detection outperforms solutions that solely detect congestion at the end-points.</p>
+
+<p><strong>Tasks</strong></p>
+
+<ul>
+  <li>Implement In-Network Congestion Detection. Either on:
+    <ul>
+      <li>Ethernet links</li>
+      <li>TCP/UDP Tunnels</li>
+      <li>Via NDNLP Link Loss Detection</li>
+    </ul>
+  </li>
+  <li>Implement the congestion signaling, while considering the current <a href="https://redmine.named-data.net/issues/4290">NFD limitations</a>
+    <ul>
+      <li>Choose an application to demonstrate the results: File Transfer, Video Streaming, others?</li>
+    </ul>
+  </li>
+  <li>Evaluate the performance on real-world hardware (laptops, switches), together with traffic shaping tools (earlier evaluations were restricted to ndnSIM).</li>
+</ul>
+
+<p><strong>Recommended Knowledge for Participants</strong></p>
+
+<ul>
+  <li>C++, ndn-cxx library, NFD</li>
+  <li>Socket programming, linux queuing discipline (qdisc), ioctl commands</li>
+  <li>Traffic shaping tools (e.g. <code class="highlighter-rouge">tc netem</code>)</li>
+  <li>Statistical tools, like R, to create plots of the results.</li>
+</ul>
+
+<p><strong>Expected Outcome</strong></p>
+
+<p>A clear demonstration of better application performance due to the use of congestion control.</p>
+
+<hr />
+
+<h2 id="8-nfd-measurements-table-manager">8. NFD Measurements Table Manager</h2>
+
+<h3 id="slides-3"><a href="/assets/8-nfd-measurements-0607326e5710f18f2abdaad55a4cabb027e139fca2f96af159390e508953a4e2.pdf">Slides</a></h3>
+
+<p>Project Lead: Davide Pesavento</p>
+
+<p><strong>Motivation</strong></p>
+
+<ul>
+  <li>Currently, NFD’s measurements table is not exposed to management clients.</li>
+  <li>Hard to retrieve stats for measurements-based strategies such as ASF.</li>
+  <li>Help operators and developers understand/debug the behavior of forwarding strategies.</li>
+</ul>
+
+<p><strong>Objectives</strong></p>
+
+<p>Support per-prefix read-only access to the measurements table via NFD management protocol.</p>
+
+<p><strong>Tasks</strong></p>
+
+<ul>
+  <li>Implement encoding/decoding of measurement entries, namely (in increasing order of difficulty):
+    <ul>
+      <li>For a given name, represent the entry as a free-form string
+        <ul>
+          <li>Displayed as-is by the client</li>
+        </ul>
+      </li>
+      <li>For a given name, represent the entry as a map {face-id =&gt; string} or similar structure, where “string” contains face-specific measurements info
+        <ul>
+          <li>Strings displayed as-is by the client, indexed by face-id</li>
+        </ul>
+      </li>
+      <li>For a given name, represent the entry fields as structured TLVs
+        <ul>
+          <li>This requires the client to understand the TLV types, but is machine readable</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Implement an NFD manager that responds to <code class="highlighter-rouge">/localhost/nfd/measure/query/PREFIX</code> (where <code class="highlighter-rouge">PREFIX</code> is encoded as one name component)</li>
+  <li>Implement a new nfdc command: <code class="highlighter-rouge">nfdc measure query PREFIX</code></li>
+</ul>
+
+<p><strong>Requirements for Participants</strong></p>
+
+<ul>
+  <li>C++11</li>
+  <li>Understanding of how NFD management works</li>
+  <li>High-level understanding of how strategies and the measurements table are implemented</li>
+  <li>A machine capable of running NFD</li>
+</ul>
+
+<p><strong>Expected Outcome</strong></p>
+
+<p>Demonstrate the new nfdc command on the ASF strategy, with ndn-traffic-generator or ndnping.</p>
+
+<hr />
+
+<h2 id="9-ndn-snapchat">9. NDN Snapchat</h2>
+
+<h3 id="slides-4"><a href="/assets/9-ndn-snapchat-1897ebda4715dc8772306c78cd299590f75b290d12485a8e00e8ca306a44144e.pdf">Slides</a></h3>
+
+<p>Project Lead: Nicholas Gordon</p>
+
+<p><strong>Problem statement</strong></p>
+
+<p>Build a weakly-secure Snapchat-like photosharing program on NDN, using QR codes and phone scanners to share keys.</p>
+
+<p><strong>Planned tasks</strong></p>
+
+<ul>
+  <li>Implement Android-to-Android file sharing using jNDN.</li>
+  <li>Extend file sharing to be “media aware” in Android.</li>
+  <li>Implement “self-destruct” timer for photos.</li>
+  <li>Implement QR code generation and scanning with some library.</li>
+  <li>Utilize QR code system to share keys and photo prefixes.</li>
+  <li>Encrypt shared photos.</li>
+  <li>(Stretch goal) Integrate with any available TPMs for better security.</li>
+  <li>(Stretch goal) Improve encryption scheme to improve cachability of data.</li>
+  <li>(Stretch goal) Integrate with the testbed to enable remote filesharing.</li>
+</ul>
+
+<p><strong>Knowledge requirements</strong></p>
+
+<ul>
+  <li>NDN and its concepts, including namespace design, key systems, sync</li>
+  <li>Android app development</li>
+  <li>Android system programming for stretch goals</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+
+<ul>
+  <li>(Artifact) Simple NDN-based file transfer app for android</li>
+  <li>(Artifact) Weakly-secure NDN-based Snapchat app</li>
+  <li>(Skill) Improved community familiarity with NDN on Android</li>
+  <li>(Investigation) Feasibility of QR code scanning for out-of-band key exchanges</li>
+</ul>
+
+<hr />
+
+<h2 id="10-nfd-content-store-management">10. NFD Content Store Management</h2>
+
+<h3 id="slides-5"><a href="/assets/10-cs-mgmt-d38b3937fc9820bdabe892d0591e26275e801b9f1910495c8ba508108c47cbcb.pdf">Slides</a></h3>
+
+<p>Project Lead: Davide Pesavento</p>
+
+<p><strong>Motivation</strong></p>
+
+<p>An NDN node implements in-network caching through a Content Store (CS), which is widely studied in the literature. NFD, the most popular NDN forwarder implementation, offers only a very limited facility to observe the CS runtime behavior (just plain logging).</p>
+
+<p>This project is to design and implement a Content Store Management protocol for NFD. The protocol would allow experimenters and operators to instrument the CS, to understand the effectiveness of in-network caching. It also includes a command to erase selected CS entries for experiment purposes.</p>
+
+<p><strong>Contribution to NDN</strong></p>
+
+<p>Provide visibility into the Content Store, an important component of an NDN node.</p>
+
+<p><strong>Tasks</strong></p>
+
+<ul>
+  <li>CS hit/miss counters: Publish a status dataset at <code class="highlighter-rouge">/localhost/nfd/cs/info</code>, providing CS hit/miss counters. Implement <code class="highlighter-rouge">nfdc cs info</code> command to show these counters.</li>
+  <li>CS enumeration: Provide a CS enumeration operation at <code class="highlighter-rouge">/localhost/nfd/cs/query/PREFIX</code> (where <code class="highlighter-rouge">PREFIX</code> is encoded as a name nested in one component), listing the first 256 Data names (no implicit digest) under the specified prefix. Implement <code class="highlighter-rouge">nfdc cs list prefix PREFIX</code> command to execute the query.</li>
+  <li>CS erase entry command: Add a control command at <code class="highlighter-rouge">/localhost/nfd/cs/erase</code>, that erases CS entries under a name prefix specified in the parameters, limited to the first 256 entries. Implement <code class="highlighter-rouge">nfdc cs erase PREFIX</code> command to execute the command and show the number of erased entries.</li>
+</ul>
+
+<p><strong>Required Knowledge for Participants</strong></p>
+
+<ul>
+  <li>C++11</li>
+  <li>A computer capable of compiling and running NFD (can be a virtual machine)</li>
+  <li>Knowledge about NFD internals, especially management, is a plus</li>
+</ul>
+
+<p><strong>Expected Outcome</strong></p>
+
+<p>Use ndnping or ndn-traffic-generator to send traffic through NFD. Demonstrate the <code class="highlighter-rouge">nfdc cs</code> subcommands implemented in this project.</p>
+
+<hr />
+
+<h2 id="11-nfd-management-thread">11. <del>NFD Management Thread</del></h2>
+
+<p>Project Lead: Davide Pesavento</p>
+
+<p><strong>Motivation</strong></p>
+
+<p>NFD currently implements its management protocol in the same thread as packet forwarding. As part of the management protocol implementation, the main thread is doing computationally intensive work, such as packet signing and signature verification, causing significant forwarding delays.</p>
+
+<p>This project moves the management protocol implementation into a separate thread. Packet signing, signature verification, as well as command/dataset encoding and decoding, are performed in the management thread. The forwarder’s data structures are shared between forwarding thread and management thread, and must be protected by a global lock. Compared to the current NFD implementation, forwarding is stopped only when management is accessing those data structures, which is a shorter duration than the entire management processing.</p>
+
+<p><strong>Contribution to NDN</strong></p>
+
+<p>Improve NFD performance with regard to <a href="https://redmine.named-data.net/issues/3565">management</a>.</p>
+
+<p><strong>Tasks</strong></p>
+
+<ul>
+  <li>Data structure locking: Add a lightweight lock (a simple spinlock can be implemented with <code class="highlighter-rouge">std::atomic_flag</code>) to NFD’s data structures that are accessed by both forwarding and management. This includes FaceTable, FIB, StrategyChoice, and ContentStore.</li>
+  <li>Management thread separation: Create a management thread. Connect management thread to forwarding through a Unix stream face.</li>
+  <li>More efficient communication between threads: NFD-RIB currently connects to NFD’s main thread through a Unix stream face, so communication involves socket operations and packet encoding. Since they are in the same process, they can instead communicate through an internal “in-memory face” implemented using a ring buffer or similar technique. This should be applied to NFD-RIB first, and can be applied to the new management thread as well.</li>
+  <li>Merge NFD-RIB thread into management thread: NFD-RIB currently interacts with FIB through control commands. Since management is now in its own thread, NFD-RIB can be merged into the same management thread, and interact with FIB through direct function calls. This decreases the complexity of NFD-RIB and FIB management (<code class="highlighter-rouge">add-nexthop</code> and <code class="highlighter-rouge">remove-nexthop</code> commands can be eliminated).</li>
+</ul>
+
+<p><strong>Required Knowledge for Participants</strong></p>
+
+<ul>
+  <li>C++11</li>
+  <li>Basic concepts of concurrency and thread synchronization</li>
+  <li>NFD internals, especially management</li>
+  <li>A computer capable of compiling and running NFD (can be a virtual machine)</li>
+</ul>
+
+<p><strong>Expected Outcome</strong></p>
+
+<ul>
+  <li>Project report slides: The report should contain a diagram illustrating how the management thread works.</li>
+  <li>Project demo: The demo shows implemented features through NFD logs.</li>
+</ul>
+
+</section>
+
+<footer>
+</footer>
+</article>
+
+        </div>
+
+        <aside id="sidebar" class="col-xs-8 col-sm-5 col-md-4 col-lg-3">
+          <section id="sidebar-github" class="well hidden-print">
+  <h3><a style="color:black" href="https://github.com/5th-ndn-hackathon" target="_blank"><i class="fa fa-github"></i></a>&nbsp;Hackathon Repositories</h3>
+  <ul id="github-repo" class="nav nav-list"><li><p>Reading github repositories...</p></li></ul>
+</section>
+
+<section id="sidebar-twitter" class="well hidden-print">
+ <h3><i class="fa fa-twitter"></i>&nbsp;Tweets</h3>
+ <a href="https://twitter.com/NamedData"
+   class="twitter-follow-button"
+   data-dnt="true"
+   data-lang="en"
+   data-show-count="false"
+   data-show-screen-name="true"
+ >Follow @NamedData</a>
+ <a class="twitter-timeline" href="https://twitter.com/NamedData"
+   data-widget-id="698294519054278656" data-chrome="transparent noheader">Tweets by @NamedData</a>
+</section>
+
+
+        </aside><!--/span-->
+
+      </div><!--/row-->
+    </div> <!-- /container -->
+
+    <hr>
+
+    <footer id="footer">
+      <p class="pull-right hidden-print"><a href="#">Back to top</a></p>
+<p>Copyright &copy; 2017, 5th NDN Hackathon Organizing Committee</p>
+
+    </footer>
+
+    <script type="text/javascript" src="/assets/site-de70071569edae1ff1d32a91b3a07e21548c193c15a5f4c144a93939406c65cb.js"></script>
+  </body>
+</html>
